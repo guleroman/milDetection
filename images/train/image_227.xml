@@ -1,0 +1,38 @@
+<annotation>
+	<folder>detect</folder>
+	<filename>image_227.jpg</filename>
+	<path>C:\Start\ВНО\_Распознавание кораблей с использованием нейросетей\NewDATA_1\images\detect\image_227.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>244</xmin>
+			<ymin>150</ymin>
+			<xmax>252</xmax>
+			<ymax>174</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>234</xmin>
+			<ymin>155</ymin>
+			<xmax>242</xmax>
+			<ymax>180</ymax>
+		</bndbox>
+	</object>
+</annotation>

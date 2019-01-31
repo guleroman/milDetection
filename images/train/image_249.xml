@@ -1,0 +1,26 @@
+<annotation>
+	<folder>detect</folder>
+	<filename>image_249.jpg</filename>
+	<path>C:\Start\ВНО\_Распознавание кораблей с использованием нейросетей\NewDATA_1\images\detect\image_249.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>vehicle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>303</xmin>
+			<ymin>44</ymin>
+			<xmax>351</xmax>
+			<ymax>88</ymax>
+		</bndbox>
+	</object>
+</annotation>

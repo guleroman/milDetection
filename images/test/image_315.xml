@@ -1,0 +1,38 @@
+<annotation>
+	<folder>detect</folder>
+	<filename>image_315.jpg</filename>
+	<path>C:\Start\ВНО\_Распознавание кораблей с использованием нейросетей\NewDATA_1\images\detect\image_315.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>vehicle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>380</xmin>
+			<ymin>243</ymin>
+			<xmax>569</xmax>
+			<ymax>420</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>vehicle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>592</xmin>
+			<ymin>6</ymin>
+			<xmax>632</xmax>
+			<ymax>32</ymax>
+		</bndbox>
+	</object>
+</annotation>
