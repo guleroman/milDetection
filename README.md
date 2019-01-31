@@ -1,5 +1,5 @@
 
-# OCR_documentsV2
+# milDetection
 Optical Character Recognition of documents
 
 ## Introduction
@@ -23,7 +23,7 @@ Optical Character Recognition of documents
 Прокрутите вверх и нажмите клонировать или загрузить и извлеките все содержимое непосредственно в D:\pythonOCR\models\research\object_detection.
 
 #### 1.4 Загрузите архив с уже обученной нейросетью.
-Если вы не собираетесь самостоятельно производить обучение нейросети загрузите [этот архив](https://yadi.sk/d/rwKJbKtezR8qeQ). Распакуйте его содержимое в каталог D:\pythonOCR\models\research\object_detection
+Если вы не собираетесь самостоятельно производить обучение нейросети загрузите [этот архив](https://yadi.sk/d/l-k20liGzFvsGw). Распакуйте его содержимое в каталог D:\pythonOCR\models\research\object_detection
 
 
 #### 1.5 Настройка виртуальной среды Anaconda
@@ -51,7 +51,6 @@ D:\> activate pythonOCR
 
 ```
 (pythonOCR) D:\> conda install -c anaconda protobuf
-(pythonOCR) D:\> conda install -c simonflueckiger tesserocr
 (pythonOCR) D:\> pip install pillow
 (pythonOCR) D:\> pip install lxml
 (pythonOCR) D:\> pip install Cython
@@ -59,6 +58,7 @@ D:\> activate pythonOCR
 (pythonOCR) D:\> pip install matplotlib
 (pythonOCR) D:\> pip install pandas
 (pythonOCR) D:\> pip install opencv-python
+(pythonOCR) D:\> pip install pyqt5
 ```
 
 #### 1.6 Настройка переменных PYTHONPATH
@@ -87,20 +87,9 @@ protoc --python_out=. .\object_detection\protos\anchor_generator.proto .\object_
 
 ### 2. Запуск 
 
-#### 2.1 Jupiter notebook
-Вы можете выполнить распознавание пошагово, запустив OCR_snils.ipynb в Jupyter notebook. 
+Вы можете использовать Gui, запустив файл window.py. 
 В каталоге \object_detection введите следующую команду:
 
-
 ```
-(pythonOCR) D:\pythonOCR\models\research\object_detection> jupyter notebook OCR_snils.ipynb
-```
-
-#### 2.2 OCR_snils.py
-
-Также, вы можете запустить исполняемый файл для распознавания документа из командной строки. В каталоге \object_detection введите следующую команду:
-
-
-```
-(pythonOCR) D:\pythonOCR\models\research\object_detection> python OCR_snils.py --image='snils_data/image10.jpg'
+(pythonOCR) D:\pythonOCR\models\research\object_detection> python window.py
 ```
