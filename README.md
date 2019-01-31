@@ -87,7 +87,7 @@ protoc --python_out=. .\object_detection\protos\anchor_generator.proto .\object_
 
 ### 2. Запуск 
 
-Вы можете использовать Gui, запустив файл window.py. 
+Вы можете использовать GUI, запустив файл window.py. 
 В каталоге \object_detection введите следующую команду:
 
 ```
