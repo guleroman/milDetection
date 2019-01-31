@@ -100,3 +100,16 @@ protoc --python_out=. .\object_detection\protos\anchor_generator.proto .\object_
 ```
 (pythonOCR) D:\pythonOCR\models\research\object_detection> python window.py
 ```
+## Оценивание результативности
+Изображение 1
+![img](/gui/img7.jpg)
+Изображение 2
+![img](/gui/img8.jpg)
+Изображение 3
+![img](/gui/img9.jpg)
+Изображение 4
+![img](/gui/img10.jpg)
+Изображение 5
+![img](/gui/img11.jpg)
+Оценивание результативности программного модуля по метрикам Recall и Precision
+![img](/gui/img12.jpg)
