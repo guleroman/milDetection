@@ -39,7 +39,7 @@ class Object_detection_video():
         PATH_TO_CKPT = os.path.join(CWD_PATH,MODEL_NAME,'frozen_inference_graph.pb')
 
         # Path to label map file
-        PATH_TO_LABELS = os.path.join(CWD_PATH,'training_ssd_v1_ppn','labelmap.pbtxt')
+        PATH_TO_LABELS = os.path.join(CWD_PATH,'training','labelmap.pbtxt')
 
         # Path to video
         PATH_TO_VIDEO = os.path.join(CWD_PATH,VIDEO_NAME)
